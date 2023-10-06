@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-launches{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.judul-launches{
+    font-family: Arial Rounded MT Bold;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.box-launch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    background-color: #8B8D98;
+    padding: 40px 35px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.25));
+
+}
+
+.text p{
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    font-size: 15px;
+}
+
+.no-space p{
+    margin: 2px 0 0 0;
+}
+
+.no-space{
+    margin-bottom: 20px;
+}
+
+.no-space p:first-child{
+    font-size:21px;
+    margin-bottom: 5px;
+}
+
+.image img{
+    width: 170px;
+    height: 230px;
+}
+
+@media only screen and (max-width: 871px) {
+    .box-launch{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

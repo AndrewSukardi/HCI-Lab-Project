@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px 25px;
+}
+
+.konten {
+    background: url(../image/image-prog/bg-bumi.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    object-position: center;
+    border-radius: 20px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 60px;
+}
+
+.gambar-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.judul-konten {
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+
+.bumi-1 {
+    margin-top: -80px;
+}
+
+.bumi-3 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s linear forwards infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.graph__wrapper {
+    margin: 0;
+    padding: 0;
+    margin-left: -70px;
+    margin-right: 10px;
+}
+
+.dashed {
+    stroke-dasharray: 5, 12;
+
+}
+
+.ifrm {
+    border: none;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.path_earth {
+    width: 520px;
+    height: 130px;
+    overflow: visible;
+    transform: scale(0.7);
+}
+
+.path {
+    stroke: white;
+    fill: none;
+    stroke-width: 5;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+#konten-2 {
+    background-color: rgba(255, 255, 255, 0.21);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jdl-konten {
+    color: black;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-family: Arial Rounded MT Bold;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.wraper_konten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.text-konten {
+    width: 70%;
+}
+
+.text-konten p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+
+#konten-4 {
+    background-color: rgba(255, 255, 255, 0.21);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#konten-2 {
+    display: none;
+}
+
+#konten-4 {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .konten{
+        height: 530px;
+    }
+    .gambar-path{
+        display: none;
+    }
+    .judul-konten{
+        margin: 0;
+    }
+    .wraper_konten{
+        flex-direction: column;
+        gap:0;
+    }
+    .text-konten p{
+        font-family: Arial;
+        font-size: 13px;
+        text-align: center;
+    }
+}
