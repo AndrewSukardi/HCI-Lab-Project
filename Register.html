@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/regis.css">
+    <title>SpaceTD</title>
+    <script src="./script/regis.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="success">
+            <div class="success-container">
+                <div class="succes-box">
+                    <svg id="close-success">
+                        <path
+                            d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z" />
+                    </svg>
+                    <svg class="centang">
+                        <path d="m4 24l5-5l10 10L39 9l5 5l-25 25L4 24Z" clip-rule="evenodd" />
+                    </svg>
+                    <p class="atas">success</p>
+                    <p class="describe">You should be automatically redirected in <span id="seconds"></span> seconds
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imageLeft">
+                <div class="title">
+                    <p>Be Part of</p>
+                    <p>SPACE ARMY</p>
+                </div>
+                <footer>
+                    <p class="copyright">&copy 2023 SpaceTD. All Right Reserved</p>
+                    <div class="wrapper-footer">
+                        <div class="content-footer">
+                            <div class="contents">
+                                <svg>
+                                    <path
+                                        d="M19.607 6.995c-.076-.298-.292-.523-.539-.592C18.63 6.28 16.501 6 12.001 6s-6.628.28-7.069.403c-.244.068-.46.293-.537.592c-.109.424-.394 2.2-.394 5.005c0 2.804.285 4.58.394 5.006c.076.297.292.522.538.59C5.373 17.72 7.5 18 12 18s6.629-.28 7.069-.403c.244-.068.46-.293.537-.592c.11-.424.394-2.205.394-5.005s-.285-4.58-.394-5.005Zm1.937-.497c.457 1.782.457 5.502.457 5.502s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.897 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.108 4 12.001 4 12.001 4s5.896 0 7.605.476c.944.266 1.687 1.04 1.938 2.022ZM10.001 15.5v-7l6 3.5l-6 3.5Z" />
+                                </svg>
+                                <p>SpaceTD</p>
+                            </div>
+                            <div class="contents">
+                                <svg>
+                                    <path
+                                        d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z" />
+                                </svg>
+                                <p>@Space_TD</p>
+                            </div>
+                        </div>
+                        <div class="content-footer">
+                            <div class="contents">
+                                <svg>
+                                    <g>
+                                        <path class="facebook"
+                                            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                        <path
+                                            d="M4 12a8 8 0 1 1 9 7.938V14h2a1 1 0 1 0 0-2h-2v-2a1 1 0 0 1 1-1h.5a1 1 0 1 0 0-2H14a3 3 0 0 0-3 3v2H9a1 1 0 1 0 0 2h2v5.938A8.001 8.001 0 0 1 4 12Zm8 10c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z" />
+                                    </g>
+                                </svg>
+                                <p>SpaceTD_International</p>
+                            </div>
+                            <div class="contents">
+                                <svg>
+                                    <path
+                                        d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z" />
+                                </svg>
+                                <p>SpaceTD@space.co.id</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="right">
+                <div class="alert-container">
+                    <div id="alert-massage">
+                        <svg class="warn">
+                            <path d="M12 6v8m.05 4v.1h-.1V18h.1Z" />
+                        </svg>
+                        <div class="text-warp">
+                            <p class="alert-atas">Warning</p>
+                            <p id="text-alert">Warn Text</p>
+                        </div>
+                        <svg id="close-click">
+                            <path
+                                d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z" />
+                        </svg>
+                    </div>
+                    <div class="upper">
+                        <p>Register</p>
+                        <div class="nothing"></div>
+                        <a href="./Home.html"><svg>
+                                <path
+                                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z" />
+                            </svg></a>
+                        <p></p>
+                    </div>
+                    <form action="#" method="get">
+                        <div class="input-group">
+                            <input required="" type="text" class="input font" id="name">
+                            <label class="label-input font">Full Name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input required="" type="text" class="input font" id="email">
+                            <label class="label-input font">Email</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="date" class="input font turun-dikit kursor" id="dob">
+                            <label class="other-label fonter">Date Of Birth</label>
+                        </div>
+
+                        <div class="radio">
+                            <div class="opt">
+                                <input type="radio" class="radio-input" name="gender" id="male">
+                                <span class="changer" id="gender-opt"></span>
+                                <label class="checker" id="genders-male" for="male">Male</label>
+                            </div>
+                            <div class="opt">
+                                <input type="radio" class="radio-input" name="gender" id="female">
+                                <span class="changer" id="gender-opt"></span>
+                                <label class="checker" id="genders-female" for="female">Female</label>
+                            </div>
+                            <label class="other-label fonter">Gender</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input required="" type="password" class="input font" id="pass">
+                            <label class="label-input font">Password</label>
+                            <div id="icon-eye">
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 9a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3m0-4.5c5 0 9.27 3.11 11 7.5c-1.73 4.39-6 7.5-11 7.5S2.73 16.39 1 12c1.73-4.39 6-7.5 11-7.5M3.18 12a9.821 9.821 0 0 0 17.64 0a9.821 9.821 0 0 0-17.64 0Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <path 
+                                        d="M2.22 2.22a.75.75 0 0 0-.073.976l.073.084l4.034 4.035a9.986 9.986 0 0 0-3.955 5.75a.75.75 0 0 0 1.455.364a8.49 8.49 0 0 1 3.58-5.034l1.81 1.81A4 4 0 0 0 14.8 15.86l5.919 5.92a.75.75 0 0 0 1.133-.977l-.073-.084l-6.113-6.114l.001-.002l-6.95-6.946l.002-.002l-1.133-1.13L3.28 2.22a.75.75 0 0 0-1.06 0ZM12 5.5c-1 0-1.97.148-2.889.425l1.237 1.236a8.503 8.503 0 0 1 9.899 6.272a.75.75 0 0 0 1.455-.363A10.003 10.003 0 0 0 12 5.5Zm.195 3.51l3.801 3.8a4.003 4.003 0 0 0-3.801-3.8Z" />
+                                </svg>
+                            </div>
+                        </div>
+
+
+
+                        <div class="input-group">
+                            <input required="" type="search" list="negara" class="input font" id="country">
+                            <label class="label-input font">Country</label>
+                            <datalist id="negara">
+                                <option value="Afghanistan" />
+                                <option value="Albania" />
+                                <option value="Algeria" />
+                                <option value="American Samoa" />
+                                <option value="Andorra" />
+                                <option value="Angola" />
+                                <option value="Anguilla" />
+                                <option value="Antarctica" />
+                                <option value="Antigua and Barbuda" />
+                                <option value="Argentina" />
+                                <option value="Armenia" />
+                                <option value="Aruba" />
+                                <option value="Australia" />
+                                <option value="Austria" />
+                                <option value="Azerbaijan" />
+                                <option value="Bahamas" />
+                                <option value="Bahrain" />
+                                <option value="Bangladesh" />
+                                <option value="Barbados" />
+                                <option value="Belarus" />
+                                <option value="Belgium" />
+                                <option value="Belize" />
+                                <option value="Benin" />
+                                <option value="Bermuda" />
+                                <option value="Bhutan" />
+                                <option value="Bolivia" />
+                                <option value="Bosnia and Herzegovina" />
+                                <option value="Botswana" />
+                                <option value="Bouvet Island" />
+                                <option value="Brazil" />
+                                <option value="British Indian Ocean Territory" />
+                                <option value="Brunei Darussalam" />
+                                <option value="Bulgaria" />
+                                <option value="Burkina Faso" />
+                                <option value="Burundi" />
+                                <option value="Cambodia" />
+                                <option value="Cameroon" />
+                                <option value="Canada" />
+                                <option value="Cape Verde" />
+                                <option value="Cayman Islands" />
+                                <option value="Central African Republic" />
+                                <option value="Chad" />
+                                <option value="Chile" />
+                                <option value="China" />
+                                <option value="Christmas Island" />
+                                <option value="Cocos (Keeling) Islands" />
+                                <option value="Colombia" />
+                                <option value="Comoros" />
+                                <option value="Congo" />
+                                <option value="Congo, The Democratic Republic of The" />
+                                <option value="Cook Islands" />
+                                <option value="Costa Rica" />
+                                <option value="Cote D'ivoire" />
+                                <option value="Croatia" />
+                                <option value="Cuba" />
+                                <option value="Cyprus" />
+                                <option value="Czech Republic" />
+                                <option value="Denmark" />
+                                <option value="Djibouti" />
+                                <option value="Dominica" />
+                                <option value="Dominican Republic" />
+                                <option value="Ecuador" />
+                                <option value="Egypt" />
+                                <option value="El Salvador" />
+                                <option value="Equatorial Guinea" />
+                                <option value="Eritrea" />
+                                <option value="Estonia" />
+                                <option value="Ethiopia" />
+                                <option value="Falkland Islands (Malvinas)" />
+                                <option value="Faroe Islands" />
+                                <option value="Fiji" />
+                                <option value="Finland" />
+                                <option value="France" />
+                                <option value="French Guiana" />
+                                <option value="French Polynesia" />
+                                <option value="French Southern Territories" />
+                                <option value="Gabon" />
+                                <option value="Gambia" />
+                                <option value="Georgia" />
+                                <option value="Germany" />
+                                <option value="Ghana" />
+                                <option value="Gibraltar" />
+                                <option value="Greece" />
+                                <option value="Greenland" />
+                                <option value="Grenada" />
+                                <option value="Guadeloupe" />
+                                <option value="Guam" />
+                                <option value="Guatemala" />
+                                <option value="Guinea" />
+                                <option value="Guinea-bissau" />
+                                <option value="Guyana" />
+                                <option value="Haiti" />
+                                <option value="Heard Island and Mcdonald Islands" />
+                                <option value="Holy See (Vatican City State)" />
+                                <option value="Honduras" />
+                                <option value="Hong Kong" />
+                                <option value="Hungary" />
+                                <option value="Iceland" />
+                                <option value="India" />
+                                <option value="Indonesia" />
+                                <option value="Iran, Islamic Republic of" />
+                                <option value="Iraq" />
+                                <option value="Ireland" />
+                                <option value="Israel" />
+                                <option value="Italy" />
+                                <option value="Jamaica" />
+                                <option value="Japan" />
+                                <option value="Jordan" />
+                                <option value="Kazakhstan" />
+                                <option value="Kenya" />
+                                <option value="Kiribati" />
+                                <option value="Korea, Democratic People's Republic of" />
+                                <option value="Korea, Republic of" />
+                                <option value="Kuwait" />
+                                <option value="Kyrgyzstan" />
+                                <option value="Lao People's Democratic Republic" />
+                                <option value="Latvia" />
+                                <option value="Lebanon" />
+                                <option value="Lesotho" />
+                                <option value="Liberia" />
+                                <option value="Libyan Arab Jamahiriya" />
+                                <option value="Liechtenstein" />
+                                <option value="Lithuania" />
+                                <option value="Luxembourg" />
+                                <option value="Macao" />
+                                <option value="Macedonia, The Former Yugoslav Republic of" />
+                                <option value="Madagascar" />
+                                <option value="Malawi" />
+                                <option value="Malaysia" />
+                                <option value="Maldives" />
+                                <option value="Mali" />
+                                <option value="Malta" />
+                                <option value="Marshall Islands" />
+                                <option value="Martinique" />
+                                <option value="Mauritania" />
+                                <option value="Mauritius" />
+                                <option value="Mayotte" />
+                                <option value="Mexico" />
+                                <option value="Micronesia, Federated States of" />
+                                <option value="Moldova, Republic of" />
+                                <option value="Monaco" />
+                                <option value="Mongolia" />
+                                <option value="Montserrat" />
+                                <option value="Morocco" />
+                                <option value="Mozambique" />
+                                <option value="Myanmar" />
+                                <option value="Namibia" />
+                                <option value="Nauru" />
+                                <option value="Nepal" />
+                                <option value="Netherlands" />
+                                <option value="Netherlands Antilles" />
+                                <option value="New Caledonia" />
+                                <option value="New Zealand" />
+                                <option value="Nicaragua" />
+                                <option value="Niger" />
+                                <option value="Nigeria" />
+                                <option value="Niue" />
+                                <option value="Norfolk Island" />
+                                <option value="Northern Mariana Islands" />
+                                <option value="Norway" />
+                                <option value="Oman" />
+                                <option value="Pakistan" />
+                                <option value="Palau" />
+                                <option value="Palestinian Territory, Occupied" />
+                                <option value="Panama" />
+                                <option value="Papua New Guinea" />
+                                <option value="Paraguay" />
+                                <option value="Peru" />
+                                <option value="Philippines" />
+                                <option value="Pitcairn" />
+                                <option value="Poland" />
+                                <option value="Portugal" />
+                                <option value="Puerto Rico" />
+                                <option value="Qatar" />
+                                <option value="Reunion" />
+                                <option value="Romania" />
+                                <option value="Russian Federation" />
+                                <option value="Rwanda" />
+                                <option value="Saint Helena" />
+                                <option value="Saint Kitts and Nevis" />
+                                <option value="Saint Lucia" />
+                                <option value="Saint Pierre and Miquelon" />
+                                <option value="Saint Vincent and The Grenadines" />
+                                <option value="Samoa" />
+                                <option value="San Marino" />
+                                <option value="Sao Tome and Principe" />
+                                <option value="Saudi Arabia" />
+                                <option value="Senegal" />
+                                <option value="Serbia and Montenegro" />
+                                <option value="Seychelles" />
+                                <option value="Sierra Leone" />
+                                <option value="Singapore" />
+                                <option value="Slovakia" />
+                                <option value="Slovenia" />
+                                <option value="Solomon Islands" />
+                                <option value="Somalia" />
+                                <option value="South Africa" />
+                                <option value="South Georgia and The South Sandwich Islands" />
+                                <option value="Spain" />
+                                <option value="Sri Lanka" />
+                                <option value="Sudan" />
+                                <option value="Suriname" />
+                                <option value="Svalbard and Jan Mayen" />
+                                <option value="Swaziland" />
+                                <option value="Sweden" />
+                                <option value="Switzerland" />
+                                <option value="Syrian Arab Republic" />
+                                <option value="Taiwan, Province of China" />
+                                <option value="Tajikistan" />
+                                <option value="Tanzania, United Republic of" />
+                                <option value="Thailand" />
+                                <option value="Timor-leste" />
+                                <option value="Togo" />
+                                <option value="Tokelau" />
+                                <option value="Tonga" />
+                                <option value="Trinidad and Tobago" />
+                                <option value="Tunisia" />
+                                <option value="Turkey" />
+                                <option value="Turkmenistan" />
+                                <option value="Turks and Caicos Islands" />
+                                <option value="Tuvalu" />
+                                <option value="Uganda" />
+                                <option value="Ukraine" />
+                                <option value="United Arab Emirates" />
+                                <option value="United Kingdom" />
+                                <option value="United States" />
+                                <option value="United States Minor Outlying Islands" />
+                                <option value="Uruguay" />
+                                <option value="Uzbekistan" />
+                                <option value="Vanuatu" />
+                                <option value="Venezuela" />
+                                <option value="Viet Nam" />
+                                <option value="Virgin Islands, British" />
+                                <option value="Virgin Islands, U.S" />
+                                <option value="Wallis and Futuna" />
+                                <option value="Western Sahara" />
+                                <option value="Yemen" />
+                                <option value="Zambia" />
+                                <option value="Zimbabwe" />
+                            </datalist>
+                        </div>
+                        <button type="button" id="submit">SIGN UP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
